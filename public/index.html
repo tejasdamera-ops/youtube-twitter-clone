@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101616"><meta name="description" content="Streamline — a home for videos, ideas, and the people behind them."><title>Streamline — Find your next obsession</title><link rel="icon" href="/avatar.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#home"><span class="brand-mark">s<span>↗</span></span>streamline<span class="brand-dot">.</span></a>
+  <div class="nav-label">DISCOVER</div>
+  <nav aria-label="Main navigation">
+    <a href="#home" data-nav="home"><span>⌂</span>For you</a>
+    <a href="#trending" data-nav="trending"><span>↗</span>Trending</a>
+    <a href="#community" data-nav="community"><span>◎</span>Community</a>
+    <a href="#subscriptions" data-nav="subscriptions"><span>▣</span>Subscriptions</a>
+  </nav>
+  <div class="nav-label library-label">YOUR SPACE</div>
+  <nav aria-label="Your library">
+    <a href="#history" data-nav="history"><span>◷</span>Watch history</a>
+    <a href="#liked" data-nav="liked"><span>♡</span>Liked videos</a>
+    <a href="#playlists" data-nav="playlists"><span>☷</span>Playlists</a>
+    <a href="#studio" data-nav="studio"><span>▥</span>Creator studio</a>
+  </nav>
+  <div class="sidebar-bottom"><div class="creator-note"><span class="small-spark">✧</span><strong>Made to be shared.</strong><p>Your ideas deserve an audience.</p><button class="button light" data-action="upload">Create something ↗</button></div><a class="settings-link" href="#settings">⚙ <span>Settings & profile</span></a><p class="copyright">A little curiosity goes a long way.<br>© 2026 Streamline</p></div>
+</aside>
+<div class="workspace">
+<header class="topbar"><button class="icon-button mobile-menu" data-action="menu" aria-label="Toggle navigation">☰</button><span class="breadcrumb">Discover <span>/</span> <b id="crumb">For you</b></span><form class="search" id="search-form"><span>⌕</span><input name="query" aria-label="Search videos" placeholder="Search videos, find inspiration…" autocomplete="off"><kbd>↵</kbd></form><button class="button upload-button" data-action="upload"><span>＋</span> Create</button><div id="account"></div></header>
+<main id="main" tabindex="-1"></main>
+<footer class="page-footer"><span>STAY CURIOUS. KEEP CREATING.</span><span>Videos & ideas, together.</span></footer>
+</div>
+<dialog id="dialog"><button class="dialog-close icon-button" aria-label="Close dialog" data-action="close">×</button><div id="dialog-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/app.js"></script>
+</body></html>
